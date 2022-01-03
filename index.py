@@ -16,7 +16,7 @@ def index(id=None):
             return render_template('1.html', name=name, login=login)
         else:
             login = 'fail'
-        if id ==520:
+        if id ==1201:
             return render_template('index.html')
         if id ==1314:
             return render_template('3.html')
