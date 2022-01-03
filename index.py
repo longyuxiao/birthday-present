@@ -20,7 +20,9 @@ def index(id=None):
             return render_template('index.html')
         if id ==1314:
             return render_template('3.html')
-    return render_template('hellow.html')
+    if id == 520:
+        return render_template('hellow.html')
+    return render_template('404.html')
 
 if __name__ == '__main__':
     app.run()
